@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './components/Shared/Footer/Footer';
 import Navbar from './components/Shared/Navbar/Navbar';
 import Home from './Pages/Home/Home';
 import Products from './Pages/Products/Products';
@@ -17,6 +18,7 @@ function App() {
           <Route path="reviews" element={<Reviews />} />
         </Routes>
       </section>
+      <Footer/>
     </main>
   );
 }
